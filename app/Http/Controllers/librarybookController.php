@@ -27,7 +27,7 @@ class LibrarybookController extends Controller
 
         if ($req->hasFile('image')) {
             $file = $req->file('image');
-            $fileName = $file->getClieOriginalName();
+            $fileName = $file->getClientOriginalName();
             $file->move('image/', $fileName);
             $data['image'] = 'image/' . $fileName;
         }

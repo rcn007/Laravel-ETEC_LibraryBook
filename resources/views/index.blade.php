@@ -24,7 +24,7 @@ body {
     <button id="add" type="button" class="btn btn-dark float-end mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
         + Add New Book
     </button> 
-    <h1 class="text-link-light fw-bold">Welcome To LibraryBook</h1>
+    <h1 class="text-link-light fw-bold ">Library Book</h1>
     <table class="table text-center table-hover mt-4 rounded-3 shadow">
         <thead class="table-warning">
             <tr>
